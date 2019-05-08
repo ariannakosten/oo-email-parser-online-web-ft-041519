@@ -10,7 +10,7 @@ class EmailParser
    
   def parse 
     
-    x = emails.split(", ").uniq
+     emails.split(", ").uniq
    # binding.pry
   end
 end 
