@@ -9,7 +9,7 @@ class EmailParser
   end
    
   def parse 
-    binding.pry
+    
     emails.split(", ").uniq.join(", ")
     #.collect do |e_address|     
     #  e_address.split(',').join("")   #takes the value, splits on the ,. use .join to elim. array[]
