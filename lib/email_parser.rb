@@ -10,8 +10,8 @@ class EmailParser
    
   def parse 
     
-     emails.split(", ").uniq
-   # binding.pry
+     emails.split(",")
+    binding.pry
   end
 end 
 
