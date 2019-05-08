@@ -9,8 +9,7 @@ class EmailParser
   end
    
   def parse 
-    
-    
+    emails.gsub("," , " ").split.uniq
   end
 end 
 
